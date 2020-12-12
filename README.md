@@ -25,9 +25,9 @@ git clone https://github.com/cattyhouse/opencore-efi-instance
        
     ```sh
     # macOS 上
-    ~/Downloads/OpenCore-0.6.4/Utilities/macserial/macserial -g -m iMac19,1
+    macserial -g -m iMac19,1
     # windows
-    ~/Downloads/OpenCore-0.6.4/Utilities/macserial/macserial,exe -g -m iMac19,1
+    macserial.exe -g -m iMac19,1
     # macserial 包含在 OpenCore 官方的下载包里面
     ```
     
