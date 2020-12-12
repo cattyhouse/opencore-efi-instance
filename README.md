@@ -50,7 +50,11 @@ git clone https://github.com/cattyhouse/opencore-efi-instance
     ```sh
     gfxutil -f HDEF
     ```
-    gfxutil [下载地址](https://github.com/acidanthera/gfxutil/releases) 
+    gfxutil [下载地址](https://github.com/acidanthera/gfxutil/releases)
+
+1. 网卡驱动
+
+    本范例默认配置了 Intel 板载网卡的驱动, 如果是 Realtek 等其他网卡, 在 `Kernel/Add` 将 `IntelMausi.kext` 的 `Enabled` 设置为 `No`, 同时安装 下载 Realtek 的 kext, 放到 `EFI/OC/Kexts`, 并且在 config.plist 里面照葫芦画瓢添加条目. 
 
 
 # 可选设置选项
