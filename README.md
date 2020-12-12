@@ -57,7 +57,7 @@ git clone https://github.com/cattyhouse/opencore-efi-instance
 
 修改 config.plist
     
-> 对于布尔选项, 当不同的软件编辑 Plist 的时候, 有的软件显示的是 YES, 有的软件显示的是 True, 但他们其实是一个意思, 就是 开/关 的意思, NO/FALSE 同理.
+> 对于布尔选项, 当不同的软件编辑 Plist 的时候, 有的软件显示的是 YES, 有的软件显示的是 True, 但他们其实是一个意思, 就是 启用 的意思, NO/FALSE 同理是 禁用 的意思
 
 1. `AAPL,ig-platform-id`
     
